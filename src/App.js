@@ -1,12 +1,15 @@
 import './App.css';
 import React, { Component } from 'react';
+import DemoApp from './demo/DemoApp';
+import StateHook from './demo/StateHook';
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello, I'm a React App</h1>
+        <DemoApp />
+        <StateHook />
       </div>
     )
   }
