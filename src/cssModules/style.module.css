@@ -1,0 +1,20 @@
+.button {
+    display: inline-block;
+    padding: .7rem 2rem;
+    border: 1px solid gainsboro;
+    color: #555;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    margin: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    transition: all .4s;
+}
+
+.round-borders {
+    border-radius: 100px;
+}
+
+
+.btn-login {
+    background-color: green;
+}
