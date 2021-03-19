@@ -6,8 +6,9 @@ import React, { Component } from 'react';
 // import Arrays from './features/Arrays';
 // import ExerciseTwo from './exercise/ExerciseTwo/ExerciseTwo';
 // import InlineStylesWithRadium from './InlineStyles/InlineStylesWithRadium';
-import StyledComponent from './InlineStyles/StyledComponent';
-import CSSModules from './cssModules/CSSModules';
+// import StyledComponent from './InlineStyles/StyledComponent';
+// import CSSModules from './cssModules/CSSModules';
+// import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
 
 class App extends Component {
     render() {
@@ -18,8 +19,9 @@ class App extends Component {
                 {/* <Arrays /> */}
                 {/* <ExerciseTwo /> */}
                 {/* <InlineStylesWithRadium /> */}
-                <StyledComponent />
-                <CSSModules />
+                {/* <StyledComponent /> */}
+                {/* <CSSModules /> */}
+                {/* <ErrorBoundary /> */}
             </div>
         );
     }
