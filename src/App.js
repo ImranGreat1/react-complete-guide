@@ -9,6 +9,8 @@ import React, { Component } from 'react';
 // import StyledComponent from './InlineStyles/StyledComponent';
 // import CSSModules from './cssModules/CSSModules';
 // import ErrorBoundary from './ErrorBoundary/ErrorBoundary';
+// import CreationPhase from './lifeCycleMethods/CreationPhase/CreationPhase';
+import UpdatingPhase from './lifeCycleMethods/UpdatingPhase/UpdatingPhase'
 
 class App extends Component {
     render() {
@@ -22,6 +24,8 @@ class App extends Component {
                 {/* <StyledComponent /> */}
                 {/* <CSSModules /> */}
                 {/* <ErrorBoundary /> */}
+                {/* <CreationPhase /> */}
+                <UpdatingPhase />
             </div>
         );
     }
