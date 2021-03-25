@@ -13,9 +13,15 @@ import React, { Component } from 'react';
 // import UpdatingPhase from './lifeCycleMethods/UpdatingPhase/UpdatingPhase'
 // import UnMountingPhase from './lifeCycleMethods/UnMountingPhase/UnMountingPhase';
 // import UseEffect from './functionalHooks/useEffect/UseEffect';
-import ShouldComponentUpdate from './lifeCycleMethods/shouldComponentUpdate/ShouldComponentUpdate';
+// import ShouldComponentUpdate from './lifeCycleMethods/shouldComponentUpdate/ShouldComponentUpdate';
 // import Memo from './features/memo/Memo';
 // import MyPureComponent from './features/pureComponent/MyPureComponent';
+// import ArrayTrick from './adjacentJSX/ArrayTrick';
+// import AuxillaryChild from './adjacentJSX/AuxillaryChild';
+// import ReactFragment from './adjacentJSX/ReactFragment';
+// import ChildOne from './hoc/ChildOne';
+// import ChildTwo from './hoc/ChildTwo';
+import PropTypesDemo from './propTypes/PropTypesDemo';
 
 class App extends Component {
     render() {
@@ -33,9 +39,15 @@ class App extends Component {
                 {/* <UpdatingPhase /> */}
                 {/* <UnMountingPhase /> */}
                 {/* <UseEffect /> */}
-                <ShouldComponentUpdate />
+                {/* <ShouldComponentUpdate /> */}
                 {/* <Memo /> */} 
                 {/* <MyPureComponent /> */}
+                {/* <ArrayTrick /> */}
+                {/* <AuxillaryChild /> */}
+                {/* <ReactFragment /> */}
+                {/* <ChildOne /> */}
+                {/* <ChildTwo /> */}
+                <PropTypesDemo />
             </div>
         );
     }

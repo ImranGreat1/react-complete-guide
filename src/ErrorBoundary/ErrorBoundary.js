@@ -16,7 +16,7 @@ class ErrorBoundary extends Component {
         const errorStyle = { color: 'red' };
 
         if (this.state.hasError) {
-            console.log();
+            console.log(this.state.errorMessage);
             return <div style={errorStyle}>Something went wrong</div>;
         }
 
