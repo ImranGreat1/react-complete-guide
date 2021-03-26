@@ -21,7 +21,9 @@ import React, { Component } from 'react';
 // import ReactFragment from './adjacentJSX/ReactFragment';
 // import ChildOne from './hoc/ChildOne';
 // import ChildTwo from './hoc/ChildTwo';
-import PropTypesDemo from './propTypes/PropTypesDemo';
+// import PropTypesDemo from './propTypes/PropTypesDemo';
+import ClassRefs from './refs/ClassRefs';
+import FunctionalRefs from './refs/FunctionalRefs';
 
 class App extends Component {
     render() {
@@ -47,7 +49,9 @@ class App extends Component {
                 {/* <ReactFragment /> */}
                 {/* <ChildOne /> */}
                 {/* <ChildTwo /> */}
-                <PropTypesDemo />
+                {/* <PropTypesDemo /> */}
+                <ClassRefs />
+                <FunctionalRefs />
             </div>
         );
     }
