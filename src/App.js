@@ -22,8 +22,9 @@ import React, { Component } from 'react';
 // import ChildOne from './hoc/ChildOne';
 // import ChildTwo from './hoc/ChildTwo';
 // import PropTypesDemo from './propTypes/PropTypesDemo';
-import ClassRefs from './refs/ClassRefs';
-import FunctionalRefs from './refs/FunctionalRefs';
+// import ClassRefs from './refs/ClassRefs';
+// import FunctionalRefs from './refs/FunctionalRefs';
+import GrandParent from './contextAPI/GrandParent';
 
 class App extends Component {
     render() {
@@ -50,8 +51,9 @@ class App extends Component {
                 {/* <ChildOne /> */}
                 {/* <ChildTwo /> */}
                 {/* <PropTypesDemo /> */}
-                <ClassRefs />
-                <FunctionalRefs />
+                {/* <ClassRefs /> */}
+                {/* <FunctionalRefs /> */}
+                <GrandParent />
             </div>
         );
     }
